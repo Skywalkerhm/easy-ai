@@ -1,0 +1,75 @@
+{
+  "_comment": "Easy_AI Shell - 配置示例。复制为 config.json 并填写你的 API Key。不要把真实密钥提交到仓库。",
+  "llm": {
+    "provider": "ark",
+    "model": "ark-code-latest",
+    "api_key": "YOUR_API_KEY",
+    "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "system_prompt": "You are Easy_AI, an AI assistant. You help users with coding tasks, file operations, and system commands. When the user asks you to perform an action, you should either call the appropriate tool or provide a helpful response. Be concise and practical."
+  },
+  "_providers": {
+    "openai": {
+      "base_url": "https://api.openai.com/v1",
+      "models": ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo", "gpt-3.5-turbo"]
+    },
+    "anthropic": {
+      "base_url": "https://api.anthropic.com",
+      "models": ["claude-opus-4-5", "claude-sonnet-4-5", "claude-haiku-3-5"]
+    },
+    "deepseek": {
+      "base_url": "https://api.deepseek.com/v1",
+      "models": ["deepseek-chat", "deepseek-coder"]
+    },
+    "zhipu": {
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "models": ["glm-4", "glm-4-flash"]
+    },
+    "custom": {
+      "base_url": "http://localhost:11434/v1",
+      "models": ["llama3", "mistral", "qwen2"]
+    },    
+    "ark": {
+      "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+      "models": ["ark-code-latest"]
+    },
+    "dashscope": {
+      "base_url": "https://coding.dashscope.aliyuncs.com/v1",
+      "models": ["qwen3.5-plus"]
+    },
+    "minimax": {
+      "base_url": "https://api.minimaxi.com/v1",
+      "models": ["MiniMax-M2.7-highspeed"]
+    }
+  },
+  "shell": {
+    "ai_mode": true,
+    "max_context_turns": 20,
+    "show_tool_calls": true,
+    "workspace": null,
+    "context_rounds": 3
+  },
+  "memory": {
+    "autoMemoryEnabled": true,
+    "autoReviewEnabled": true,
+    "minHours": 24,
+    "minSessions": 1,
+    "memoryDir": ".easy_ai/memory"
+  },
+  "permission": {
+    "mode": "workspace-write",
+    "allow_rules": ["bash(git:*)", "read_file(*.md)"],
+    "deny_rules": ["bash(rm -rf:*)", "bash(sudo:*)"],
+    "ask_rules": ["bash(ssh:*)", "write_file(*.env)"],
+    "bash_workspace_policy": "trust-workspace"
+  },
+  "mcp_servers": {
+    "WebSearch": {
+      "httpUrl": "https://dashscope.aliyuncs.com/api/v1/mcps/WebSearch/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_DASHSCOPE_MCP_API_KEY"
+      }
+    }
+  }
+}

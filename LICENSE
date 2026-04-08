@@ -1,0 +1,131 @@
+Easy AI Shell 开源许可证
+Easy AI Shell Open Source License
+版权所有 (c) 2026 Easy-AI-Shell contributors
+
+================================================================================
+                            许可证说明
+                          License Notice
+================================================================================
+
+本软件基于 Apache License 2.0 开源许可。
+This software is licensed under Apache License 2.0.
+
+你可以在遵守 Apache License 2.0 条款的前提下免费使用、复制、修改、合并、发布、
+分发、再授权和销售本软件。
+You may use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the terms of Apache License 2.0.
+
+Apache License 2.0 副本可在以下地址获取：
+A copy of Apache License 2.0 is available at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+================================================================================
+                            额外许可条款
+                     Additional License Conditions
+================================================================================
+
+在 Apache License 2.0 的基础上，本项目增加以下额外许可条款：
+Based on Apache License 2.0, this project adds the following additional terms:
+
+--------------------------------------------------------------------------------
+第一条：多租户 SaaS 限制 / Multi-Tenant SaaS Restriction
+--------------------------------------------------------------------------------
+
+【中文】
+禁止将本软件以多租户（Multi-Tenant）形式提供商业服务。
+即：禁止通过同一份软件实例同时向多个独立客户提供付费服务并从中获利。
+如需以多租户形式使用本软件，需另行取得商业授权。
+单一工作区（single-workspace）内部业务使用无需额外授权。
+
+【English】
+Use of this software to provide commercial multi-tenant (Multi-Tenant) services
+is prohibited. That is, providing paid services to multiple independent customers
+through a single instance of the software is not allowed.
+A separate commercial license is required for multi-tenant usage.
+Single-workspace deployment for internal business use is permitted without
+additional license.
+
+--------------------------------------------------------------------------------
+第二条：商标与版权保护 / Trademark and Copyright Protection
+--------------------------------------------------------------------------------
+
+【中文】
+1. 禁止删除、隐藏或修改任何本软件相关的 Logo、商标或版权声明
+2. 商业使用时，应在产品或文档中保留 "Powered by Easy AI Shell" 或类似声明
+3. 如需去除上述标识（白标化），需另行购买商业授权
+
+【English】
+1. Removal, concealment, or modification of any Logo, trademark, or copyright
+   notices associated with this software is prohibited.
+2. When used commercially, products or documentation should retain
+   "Powered by Easy AI Shell" or similar notices.
+3. Removal of branding (whitelabeling) requires a separate commercial license.
+
+--------------------------------------------------------------------------------
+第三条：衍生产品与再分发 / Derivative Products and Redistribution
+--------------------------------------------------------------------------------
+
+【中文】
+1. 基于本软件开发的衍生产品，必须开源其修改部分
+2. 再分发时必须保留本许可证及版权声明
+3. 不得将本软件用于任何违法或恶意目的
+
+【English】
+1. Derivative products developed based on this software must open-source
+   their modifications.
+2. Redistribution must retain this license and copyright notices.
+3. This software shall not be used for any illegal or malicious purposes.
+
+--------------------------------------------------------------------------------
+第四条：商业授权获取 / Commercial License Acquisition
+--------------------------------------------------------------------------------
+
+【中文】
+如需获得以下权利，可联系授权方获取商业许可证：
+- 多租户 SaaS 服务
+- 专属技术支持
+- 优先获得新功能
+
+联系我们：msfocus@hotmail.com
+
+【English】
+To obtain the following rights, please contact us for a commercial license:
+- Multi-Tenant SaaS services
+- Dedicated technical support
+- Priority access to new features
+
+Contact us: msfocus@hotmail.com
+
+================================================================================
+                           Apache License 2.0 原文
+                    Original Apache License 2.0 Text
+================================================================================
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+   2. Grant of Copyright License.
+
+   3. Grant of Patent License.
+
+   4. Redistribution.
+
+   5. Submission of Contributions.
+
+   6. Trademarks.
+
+   7. Disclaimer of Warranty.
+
+   8. Limitation of Liability.
+
+   9. Accepting Warranty or Additional Liability.
+
+   END OF TERMS AND CONDITIONS
+
+   Copyright [2026] [Easy-AI-Shell contributors]

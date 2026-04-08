@@ -47,6 +47,13 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 - Keep functions reasonably short and focused
 - Use type hints where appropriate
 
+### AGI Growth System
+- Follow the five-layer architecture pattern (DNA/Soul/State/Consolidation/Inference)
+- Ensure all components accept global_config parameter in constructors
+- Maintain backward compatibility when adding new configuration options
+- Add appropriate logging for debugging and monitoring
+- Follow the existing configuration schema in agi_config.json
+
 ### Documentation
 - Use clear, concise language
 - Follow the existing documentation style

@@ -50,11 +50,18 @@ desktop.ini
 
 # Project specific
 config.json
+agi_config.json
 .easy_ai/
+.agi_growth/
 *.log
 logs/
 tmp/
 temp/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
 
 # Backup files
 *~
@@ -90,3 +97,8 @@ sample.*
 *.7z
 *.dmg
 *.iso
+
+# Temporary scripts
+test_*.py
+verify_*.py
+review_*.py

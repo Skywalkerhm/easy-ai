@@ -1,0 +1,94 @@
+{
+  "agi_growth": {
+    "enabled": true,
+    "debug_mode": false,
+    "log_level": "INFO",
+    "storage": {
+      "base_path": ".agi_growth",
+      "max_storage_size_mb": 1024,
+      "backup_enabled": true,
+      "backup_retention_days": 30
+    },
+    "dna_layer": {
+      "initial_config": {
+        "capabilities": {
+          "creativity": 0.7,
+          "logical_reasoning": 0.8,
+          "empathy": 0.6,
+          "memory_capacity": 0.9,
+          "learning_speed": 0.75,
+          "adaptability": 0.8
+        },
+        "personality": {
+          "openness": 0.8,
+          "conscientiousness": 0.7,
+          "extraversion": 0.5,
+          "agreeableness": 0.7,
+          "neuroticism": 0.3
+        },
+        "values": {
+          "long_term_oriented": true,
+          "risk_aversion": 0.4,
+          "collective_individual": 0.6,
+          "truth_seeking": 0.9,
+          "efficiency_focus": 0.8
+        },
+        "knowledge_boundaries": {
+          "strong_domains": ["general_knowledge", "problem_solving", "communication"],
+          "weak_domains": ["physical_tasks", "real_world_manipulation"],
+          "learning_preferences": ["examples", "analogies", "structured_explanation"]
+        }
+      }
+    },
+    "soul_layer": {
+      "experience_retention_days": 365,
+      "cognition_threshold": 0.6,
+      "memory_compression_ratio": 0.7,
+      "max_experiences_stored": 10000,
+      "max_cognitions_stored": 5000
+    },
+    "state_layer": {
+      "energy_decay_rate": 0.01,
+      "energy_recovery_rate": 0.1,
+      "max_energy": 1.0,
+      "min_energy": 0.1,
+      "working_memory_size": 10,
+      "idle_threshold_minutes": 60
+    },
+    "consolidation_layer": {
+      "daily_time": "02:00",
+      "compression_enabled": true,
+      "cognition_fusion_enabled": true,
+      "conflict_resolution_enabled": true,
+      "garbage_collection_enabled": true,
+      "state_reset_enabled": true,
+      "importance_threshold": 0.5
+    },
+    "inference_layer": {
+      "response_timeout_seconds": 30,
+      "max_response_length": 2000,
+      "confidence_threshold": 0.6,
+      "fallback_enabled": true
+    },
+    "user_interaction_sampler": {
+      "profile_retention_days": 365,
+      "interaction_log_retention": 1000,
+      "pattern_detection_enabled": true,
+      "personalization_level": 0.7
+    },
+    "nightly_scheduler": {
+      "enabled": true,
+      "integration_time": "02:00",
+      "graceful_shutdown_timeout": 30,
+      "retry_attempts": 3,
+      "retry_delay_seconds": 10
+    },
+    "progressive_development_engine": {
+      "learning_rate": 0.1,
+      "performance_evaluation_window": 50,
+      "improvement_threshold": 0.1,
+      "adaptation_frequency": 10,
+      "evolution_enabled": true
+    }
+  }
+}
